@@ -1,0 +1,238 @@
+{
+    "basics": {
+      "name": "Gaetan Ferry",
+      "label": "Security Researcher",
+      "picture": "",
+      "website": "https://mabote.heimr.net",
+      "summary": "I am a security researcher with a particular appeal for application security. With a background in offensive security I am at my happiest when breaking through all kind of things.",
+      "location": {
+        "address": "Rouen Area",
+        "countryCode": "FR",
+        "region": "Normandie"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "_mabote_",
+          "url": "https://twitter.com/_mabote_"
+        },
+        {
+          "network": "linkedin",
+          "username": "gaetan-f-a40497a4",
+          "url": "https://www.linkedin.com/in/gaetan-f-a40497a4/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "SonarSource",
+        "position": "Application Security Researcher",
+        "website": "https://www.sonarsource.com/",
+        "startDate": "2022-08",
+        "endDate": "",
+        "summary": "Researching and specifying security rules to feed the SAST engines of Sonar products.",
+        "highlights": [
+          "Research the security of languages and framework to identify their weak spots and attack surface.",
+          "Design rules detection logics and track results precision."
+        ]
+      },
+      {
+        "company": "Synacktiv",
+        "position": "Security expert",
+        "website": "https://www.synacktiv.com/",
+        "startDate": "2015-09",
+        "endDate": "2022-07",
+        "summary": "Penetration tester and offensive security auditor position. I was assigned a variety of missions and goals from simple web application intrusions to complexe crypto protocole auditing. Other typical missions included adversary simulation, OS hardening assessment, and white-box vulnerability research.",
+        "highlights": [
+          "Pentest team research lead.",
+          "Applied cryptography specialist.",
+          "ANJ audit go-to guy."
+        ]
+      },{
+        "company": "Intrinsec",
+        "position": "Security analyst intern",
+        "website": "https://www.intrinsec.com/",
+        "startDate": "2015-03",
+        "endDate": "2015-09",
+        "summary": "Security analyst inside Intrinsec CERT. Research and development around malware analysis and threat intelligence.",
+        "highlights": [
+          "Honeypot development, deployment, and data analysis.",
+          "Malware analysis."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Rouen",
+        "area": "Information System Security",
+        "studyType": "Master",
+        "startDate": "2013-09",
+        "endDate": "2015-09",
+        "courses": [
+          "Cryptography",
+          "Web Security",
+          "Binary exploitation",
+          "etc"
+        ]
+      },{
+        "institution": "University of Rouen",
+        "area": "Computer Sciences",
+        "studyType": "Bachelor",
+        "startDate": "2010-09",
+        "endDate": "2013-09",
+        "courses": [
+          "Web development",
+          "Algorithms",
+          "etc"
+        ]
+      }
+    ],
+    "publications": [
+        {
+            "name": "CVE-2022-31813: Forwarding addresses is hard",
+            "website": "https://www.synacktiv.com/publications/cve-2022-31813-forwarding-addresses-is-hard.html",
+            "releaseDate": "2022-03-30",
+            "summary": "Write-up about CVE-31813, which exploits hop-by-hop headers handling in mod_proxy. Presentation of theoretical and real world impacts."
+        },{
+            "name": "elFinder: The story of a repwning",
+            "website": "https://www.synacktiv.com/publications/elfinder-the-story-of-a-repwning.html",
+            "releaseDate": "2022-03-30",
+            "summary": "Write-up about CVE-2020-26960 which bypasses a previous path traversal patch."
+        },{
+            "name": "Is it post quantum time yet?",
+            "website": "https://www.synacktiv.com/publications/is-it-post-quantum-time-yet.html",
+            "releaseDate": "2021-09-08",
+            "summary": "High level overview of post-quantum cryptography focusing on transition mechanisms."
+        },{
+            "name": "Kubernetes namespaces isolation - what it is, what it isn't, life, universe and everything",
+            "website": "https://www.synacktiv.com/publications/kubernetes-namespaces-isolation-what-it-is-what-it-isnt-life-universe-and-everything.html",
+            "releaseDate": "2021-03-27",
+            "summary": "Presentation of kubernetes namespaces isolation, its limits, and some attack scenarios."
+        },{
+            "name": "Don't fear the bark, ts_rewrite to dodge the mark",
+            "website": "https://www.synacktiv.com/publications/dont-fear-the-bark-tsrewrite-to-dodge-the-mark.html",
+            "releaseDate": "2020-11-30",
+            "summary": "Bypassing F5 Big IP WAF SQL injection protection using the full text search feature of PostreSQL."
+        },{
+            "name": "Pwning an outdated Kibana with not so sad vulnerabilities",
+            "website": "https://www.synacktiv.com/publications/pwning-an-outdated-kibana-with-not-so-sad-vulnerabilities.html",
+            "releaseDate": "2019-12-12",
+            "summary": "Writeup about combining a LFI and a prototype pollution vulnerabilities to achieve remote code execution on Kibana."
+        },{
+            "name": "Attaquer un réseau Windows avec Responder",
+            "publisher": "MISC Magazine",
+            "releaseDate": "2016-04-22",
+            "summary": "A short introduction on exploiting the multicast and broadcast name resolution mechanisms to start compromising a Windows Active Directory domain."
+        }
+    ],
+    "talks":[
+        {
+            "name": "AppSeco and Juliet C# (lightning talk)",
+            "event": "Hexacon 2023",
+            "summary": "A lightning talk about the Juliet C# project and its use for SAST engine benchmarking."
+        },{
+            "name": "Code Obfuscation 10**2+(2*a+3)%2",
+            "event": "JSecIN'18",
+            "summary": "An introduction talk to code obfuscation focusing on classical technics like CFG flattening or array indexing."
+        }
+    ],
+    "vulns":[
+        {
+            "name":"CVE-2022-31813",
+            "summary":"X-Forwarded-* header creation bypass through hop-by-hop in Apache HTTPD.",
+            "adviso":"https://nvd.nist.gov/vuln/detail/CVE-2022-26960"
+        },{
+            "name":"CVE-2022-26960",
+            "summary":"Directory traversal in std42 elFinder through 2.1.60.",
+            "adviso":"https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2022-31813"
+        },{
+            "name":"Livebox 3 - Weak password reset procedure",
+            "summary":"Password reset vulnerability on the Livebox 3 device from Orange.",
+            "adviso":"https://www.synacktiv.com/ressources/advisories/Livebox-Weak_password_reset.pdf"
+        },{
+            "name":"CVE-2019-1591",
+            "summary":"Cisco Nexus 9000 Series Shell Escape Vulnerability",
+            "adviso":"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190306-aci-shell-escape?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Cisco%20Nexus%209000%20Series%20Fabric%20Switches%20Application%20Cen"
+        },
+        {
+            "name":"CVE-2019-1588",
+            "summary":"Cisco Nexus 9000 Series Arbitrary File Read Vulnerability",
+            "adviso":"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190306-aci-file-read?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Cisco%20Nexus%209000%20Series%20Fabric%C2%A0Switches%20Application-Centr"
+        },
+        {
+            "name":"CYBONET – PineApp Mail Secure 5.1: Multiple vulnerabilities",
+            "summary":"Code execution, SQL injection, unrestricted upload and restricted shell escape in PineApp Mail Secure email filtering software.",
+            "adviso":"https://www.synacktiv.com/ressources/advisories/CYBONET-PineApp_Mail_Vulnerabilities_Advisory.pdf"
+        }
+    ],
+    "skills": [
+      {
+        "name": "Offensive security",
+        "level": "Master",
+        "keywords": [
+          "Pentesting",
+          "Vulnerability research",
+          "that kind of things (but not that mush reversing / binary exploitation)"
+        ]
+      },{
+        "name": "AppSec with an A",
+        "level": "Master",
+        "keywords": [
+            "Whitebox audit",
+            "SAST",
+            "CI/CD",
+            "IAC",
+            "all"
+        ]
+      },
+      {
+        "name": "Research",
+        "level": "Satisfactory",
+        "keywords": [
+          "Research mindset",
+          "Curiosity",
+          "Tenacity",
+          "Publication"
+        ]
+      },
+      {
+        "name": "Communication",
+        "level": "Satisfactory",
+        "keywords": [
+          "Reporting",
+          "Team working",
+          "Popularization"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "French",
+        "fluency": "Native speaker"
+      },{
+        "language": "English",
+        "fluency": "Fluent"
+      },{
+        "language": "Spanish",
+        "fluency": "School level"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Hobbies",
+        "keywords": [
+          "Chess",
+          "Drawing",
+          "Ph^WFishing",
+          "everything else"
+        ]
+      },{
+        "name": "Sports",
+        "keywords": [
+          "Judo",
+          "JJ",
+          "running (sometimes)"
+        ]
+      }
+    ]
+  }

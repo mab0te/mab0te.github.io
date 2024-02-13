@@ -1,0 +1,27 @@
+{% if cv.vulns %}
+  <div id="vulns" class="entry">
+    <header class="entry-header">
+      <h3 class="entry-title">{{ site.data.theme.t.cv_talks | default: 'Vulnerabilities' }}</h3>
+    </header>
+
+    <div class="entry-content">
+      {% for p in cv.vulns %}
+        {% if p.name %}
+          <h4 class="title">
+            {% if p.adviso %}
+              <a href="{{ p.adviso }}">{{ p.name }}</a>
+            {% else %}
+              {{ p.name }}
+            {% endif %}
+          </h4>
+        {% endif %}
+        {% if p.releaseDate %}
+          <div class="date">{{ p.releaseDate }}</div>
+        {% endif %}
+        {% if p.summary %}
+          <div class="summary">{{ p.summary | markdownify }}</div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
