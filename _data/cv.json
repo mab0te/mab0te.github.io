@@ -33,7 +33,8 @@
         "summary": "Researching and specifying security rules to feed the SAST engines of Sonar products.",
         "highlights": [
           "Research the security of languages and framework to identify their weak spots and attack surface.",
-          "Design rules detection logics and track results precision."
+          "Design rules detection logics and track results precision.",
+          "Develop tools and proof of concepts to illustrate vulnerabilities."
         ]
       },
       {
@@ -42,9 +43,10 @@
         "website": "https://www.synacktiv.com/",
         "startDate": "2015-09",
         "endDate": "2022-07",
-        "summary": "Penetration tester and offensive security auditor position. I was assigned a variety of missions and goals from simple web application intrusions to complexe crypto protocole auditing. Other typical missions included adversary simulation, OS hardening assessment, and white-box vulnerability research. I also designed and gave training about web security and RedTeaming in Linux environment.",
+        "summary": "Penetration tester and offensive security auditor position. I was assigned a variety of missions and goals from simple web application intrusions to complex crypto protocols auditing. Other typical missions included adversary simulation, OS hardening assessment, and white-box vulnerability research. I also designed and gave training about web security and RedTeaming in Linux environment.",
         "highlights": [
-          "Pentest team research lead.",
+          "Pentest team research and development lead.",
+          "Offensive security tooling.",
           "Applied cryptography specialist.",
           "ANJ audit go-to guy."
         ]
@@ -179,7 +181,7 @@
         "keywords": [
           "Pentesting",
           "Vulnerability research",
-          "that kind of things (but not that mush reversing / binary exploitation)"
+          "that kind of thing (but not that much reversing / binary exploitation)"
         ]
       },{
         "name": "AppSec with an A",
