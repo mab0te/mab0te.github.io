@@ -25,7 +25,7 @@
     },
     "work": [
       {
-        "company": "SonarSource",
+        "name": "SonarSource",
         "position": "Application Security Researcher",
         "website": "https://www.sonarsource.com/",
         "startDate": "2022-08",
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "company": "Synacktiv",
+        "name": "Synacktiv",
         "position": "Security expert",
         "website": "https://www.synacktiv.com/",
         "startDate": "2015-09",
@@ -50,13 +50,13 @@
           "ANJ audit go-to guy."
         ]
       },{
-        "company": "Rouen University",
+        "name": "Rouen University",
         "position": "Independent contractor",
         "startDate": "2016",
         "endDate": "2020",
         "summary": "Web application security course for last year Master degree students."
       },{
-        "company": "Intrinsec",
+        "name": "Intrinsec",
         "position": "Security analyst intern",
         "website": "https://www.intrinsec.com/",
         "startDate": "2015-03",
@@ -226,15 +226,15 @@
         "keywords": [
           "Chess",
           "Drawing",
-          "Ph^WFishing",
-          "everything else"
+          "Fishing",
+          "gardening"
         ]
       },{
         "name": "Sports",
         "keywords": [
           "Judo",
           "JJ",
-          "running (sometimes)"
+          "running"
         ]
       }
     ]
