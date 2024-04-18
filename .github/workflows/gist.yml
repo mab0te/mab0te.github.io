@@ -14,4 +14,4 @@ jobs:
       with:
         token: ${{ secrets.TOKEN }}
         gist_id: 8ff148a25a1d36dea99f582c00b56a76
-        file_path: _data/cv.json
+        file_path: _data/cv_simple.json
