@@ -29,6 +29,7 @@
         "position": "Application Security Researcher",
         "website": "https://www.sonarsource.com/",
         "startDate": "2022-08",
+        "endDate": "2024",
         "summary": "Researching and specifying security rules to feed the SAST engines of Sonar products.",
         "highlights": [
           "Research the security of languages and framework to identify their weak spots and attack surface.",
