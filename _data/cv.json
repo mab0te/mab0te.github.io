@@ -20,6 +20,11 @@
           "network": "LinkedIn",
           "username": "gaetan-f-a40497a4",
           "url": "https://www.linkedin.com/in/gaetan-f-a40497a4/"
+        },
+        {
+          "network": "mastodon",
+          "username": "mabote",
+          "url": "https://infosec.exchange/@mabote"
         }
       ]
     },
@@ -32,9 +37,9 @@
         "endDate": "",
         "summary": "Researching and specifying security rules to feed the SAST engines of Sonar products.",
         "highlights": [
-          "Research the security of languages and framework to identify their weak spots and attack surface.",
-          "Design rules detection logics and track results precision.",
-          "Develop tools and proof of concepts to illustrate vulnerabilities."
+          "Languages and framework security research.",
+          "Detection rules design.",
+          "Proofs of concept and prototypes."
         ]
       },
       {
@@ -43,12 +48,13 @@
         "website": "https://www.synacktiv.com/",
         "startDate": "2015-09",
         "endDate": "2022-07",
-        "summary": "Penetration tester and offensive security auditor position. I was assigned a variety of missions and goals from simple web application intrusions to complex crypto protocols auditing. Other typical missions included adversary simulation, OS hardening assessment, and white-box vulnerability research. I also designed and gave training about web security and RedTeaming in Linux environment.",
+        "summary": "Penetration tester and offensive security auditor position. Missions for a wide variety of customers and topics.",
         "highlights": [
-          "Pentest team research and development lead.",
+          "Adversary simulation.",
+          "Vulnerability research.",
+          "Pentest team R&D lead.",
           "Offensive security tooling.",
-          "Applied cryptography specialist.",
-          "ANJ audit go-to guy."
+          "Applied cryptography specialist."
         ]
       },{
         "company": "Rouen University",
@@ -65,7 +71,8 @@
         "summary": "Security analyst inside Intrinsec CERT. Research and development around malware analysis and threat intelligence.",
         "highlights": [
           "Honeypot development, deployment, and data analysis.",
-          "Malware analysis."
+          "Malware analysis.",
+          "Incident response."
         ]
       }
     ],
@@ -105,7 +112,7 @@
             "name": "CVE-2022-31813: Forwarding addresses is hard",
             "website": "https://www.synacktiv.com/publications/cve-2022-31813-forwarding-addresses-is-hard.html",
             "releaseDate": "2022-03-30",
-            "summary": "Write-up about CVE-2022-31813, which exploits hop-by-hop headers handling in mod_proxy. Presentation of theoretical and real world impacts."
+            "summary": "Write-up about CVE-2022-31813, which exploits hop-by-hop headers handling in mod_proxy. Presentation of theoretical and real-world impacts."
         },{
             "name": "elFinder: The story of a repwning",
             "website": "https://www.synacktiv.com/publications/elfinder-the-story-of-a-repwning.html",
@@ -115,12 +122,12 @@
             "name": "Is it post quantum time yet?",
             "website": "https://www.synacktiv.com/publications/is-it-post-quantum-time-yet.html",
             "releaseDate": "2021-09-08",
-            "summary": "High level overview of post-quantum cryptography focusing on transition mechanisms."
+            "summary": "High-level overview of post-quantum cryptography focusing on transition mechanisms."
         },{
             "name": "Kubernetes namespaces isolation - what it is, what it isn't, life, universe and everything",
             "website": "https://www.synacktiv.com/publications/kubernetes-namespaces-isolation-what-it-is-what-it-isnt-life-universe-and-everything.html",
             "releaseDate": "2021-03-27",
-            "summary": "Presentation of kubernetes namespaces isolation, its limits, and some attack scenarios."
+            "summary": "Presentation of Kubernetes namespaces isolation, its limits, and some attack scenarios."
         },{
             "name": "Don't fear the bark, ts_rewrite to dodge the mark",
             "website": "https://www.synacktiv.com/publications/dont-fear-the-bark-tsrewrite-to-dodge-the-mark.html",
@@ -153,7 +160,7 @@
     "vulns":[
         {
             "name": "Remote Code Execution in Supermicro SuperDoctor5 before 5.14.0",
-            "summary":"A remote code execution vulnerability in Supermicro Super Doctor 5 leveraging a log4j configuration tampering issue.",
+            "summary": "A remote code execution vulnerability in Supermicro Super Doctor 5 leveraging a log4j configuration tampering issue.",
             "adviso": "https://www.synacktiv.com/sites/default/files/2023-03/Synacktiv-SuperDoctor5-RCE_1.pdf"
         },{
             "name": "CVE-2022-31813",
@@ -190,17 +197,16 @@
         "keywords": [
           "Pentesting",
           "Vulnerability research",
-          "that kind of thing (but not that much reversing / binary exploitation)"
+          "Exploit development"
         ]
       },{
-        "name": "AppSec with an A",
+        "name": "AppSec",
         "level": "Master",
         "keywords": [
             "Whitebox audit",
             "SAST",
             "CI/CD",
-            "IAC",
-            "all"
+            "IAC"
         ]
       },
       {
