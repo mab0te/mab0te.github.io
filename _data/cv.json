@@ -4,7 +4,7 @@
       "label": "Security Researcher",
       "picture": "",
       "website": "https://mabote.heimr.net",
-      "summary": "I am a security researcher with a particular appeal for application security. With a background in offensive security I am at my happiest when breaking through all kinds of things.",
+      "summary": "I am a security researcher with a particular appeal for application security. With a background in offensive security, I am at my happiest when breaking through all kinds of things.",
       "location": {
         "address": "Rouen Area",
         "countryCode": "FR",
@@ -97,6 +97,11 @@
     ],
     "publications": [
         {
+            "name": "Juliet C# Benchmark and the SecureString case",
+            "website": "https://www.sonarsource.com/blog/juliet-c-benchmark-and-the-securestring-case/",
+            "releaseDate": "2024-02-01",
+            "summary": "Feedback post about the Juliet C# SAST benchmark suite with a study SecureString related test cases."
+        },{
             "name": "CVE-2022-31813: Forwarding addresses is hard",
             "website": "https://www.synacktiv.com/publications/cve-2022-31813-forwarding-addresses-is-hard.html",
             "releaseDate": "2022-03-30",
@@ -120,12 +125,12 @@
             "name": "Don't fear the bark, ts_rewrite to dodge the mark",
             "website": "https://www.synacktiv.com/publications/dont-fear-the-bark-tsrewrite-to-dodge-the-mark.html",
             "releaseDate": "2020-11-30",
-            "summary": "Bypassing F5 Big IP WAF SQL injection protection using the full text search feature of PostreSQL."
+            "summary": "Bypassing F5 Big IP WAF SQL injection protection using the full-text search feature of PostreSQL."
         },{
             "name": "Pwning an outdated Kibana with not so sad vulnerabilities",
             "website": "https://www.synacktiv.com/publications/pwning-an-outdated-kibana-with-not-so-sad-vulnerabilities.html",
             "releaseDate": "2019-12-12",
-            "summary": "Writeup about combining a LFI and a prototype pollution vulnerabilities to achieve remote code execution on Kibana."
+            "summary": "Writeup about combining LFI and prototype pollution vulnerabilities to achieve remote code execution on Kibana."
         },{
             "name": "Attaquer un réseau Windows avec Responder",
             "publisher": "MISC Magazine",
@@ -142,36 +147,40 @@
             "name": "Code Obfuscation 10**2+(2*a+3)%2",
             "website": "https://webtv.univ-rouen.fr/videos/jsecin-obfuscation-de-code-1022a32-gaetan-ferry/",
             "event": "JSecIN'18",
-            "summary": "An introduction talk to code obfuscation focusing on classical technics like CFG flattening or array indexing."
+            "summary": "An introduction talk to code obfuscation focusing on classical techniques like CFG flattening or array indexing."
         }
     ],
     "vulns":[
         {
-            "name":"CVE-2022-31813",
-            "summary":"X-Forwarded-* header creation bypass through hop-by-hop in Apache HTTPD.",
-            "adviso":"https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2022-31813"
+            "name": "Remote Code Execution in Supermicro SuperDoctor5 before 5.14.0",
+            "summary":"A remote code execution vulnerability in Supermicro Super Doctor 5 leveraging a log4j configuration tampering issue.",
+            "adviso": "https://www.synacktiv.com/sites/default/files/2023-03/Synacktiv-SuperDoctor5-RCE_1.pdf"
         },{
-            "name":"CVE-2022-26960",
-            "summary":"Directory traversal in std42 elFinder through 2.1.60.",
-            "adviso":"https://nvd.nist.gov/vuln/detail/CVE-2022-26960"
+            "name": "CVE-2022-31813",
+            "summary": "X-Forwarded-* header creation bypass through hop-by-hop in Apache HTTPD.",
+            "adviso": "https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2022-31813"
         },{
-            "name":"Livebox 3 - Weak password reset procedure",
-            "summary":"Password reset vulnerability on the Livebox 3 device from Orange.",
-            "adviso":"https://www.synacktiv.com/ressources/advisories/Livebox-Weak_password_reset.pdf"
+            "name": "CVE-2022-26960",
+            "summary": "Directory traversal in std42 elFinder through 2.1.60.",
+            "adviso": "https://nvd.nist.gov/vuln/detail/CVE-2022-26960"
         },{
-            "name":"CVE-2019-1591",
-            "summary":"Cisco Nexus 9000 Series Shell Escape Vulnerability",
-            "adviso":"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190306-aci-shell-escape?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Cisco%20Nexus%209000%20Series%20Fabric%20Switches%20Application%20Cen"
+            "name": "Livebox 3 - Weak password reset procedure",
+            "summary": "Password reset vulnerability on the Livebox 3 device from Orange.",
+            "adviso": "https://www.synacktiv.com/ressources/advisories/Livebox-Weak_password_reset.pdf"
+        },{
+            "name": "CVE-2019-1591",
+            "summary": "Cisco Nexus 9000 Series Shell Escape Vulnerability",
+            "adviso": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190306-aci-shell-escape?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Cisco%20Nexus%209000%20Series%20Fabric%20Switches%20Application%20Cen"
         },
         {
-            "name":"CVE-2019-1588",
-            "summary":"Cisco Nexus 9000 Series Arbitrary File Read Vulnerability",
-            "adviso":"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190306-aci-file-read?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Cisco%20Nexus%209000%20Series%20Fabric%C2%A0Switches%20Application-Centr"
+            "name": "CVE-2019-1588",
+            "summary": "Cisco Nexus 9000 Series Arbitrary File Read Vulnerability",
+            "adviso": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190306-aci-file-read?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Cisco%20Nexus%209000%20Series%20Fabric%C2%A0Switches%20Application-Centr"
         },
         {
-            "name":"CYBONET – PineApp Mail Secure 5.1: Multiple vulnerabilities",
-            "summary":"Code execution, SQL injection, unrestricted upload and restricted shell escape in PineApp Mail Secure email filtering software.",
-            "adviso":"https://www.synacktiv.com/ressources/advisories/CYBONET-PineApp_Mail_Vulnerabilities_Advisory.pdf"
+            "name": "CYBONET – PineApp Mail Secure 5.1: Multiple vulnerabilities",
+            "summary": "Code execution, SQL injection, unrestricted upload and restricted shell escape in PineApp Mail Secure email filtering software.",
+            "adviso": "https://www.synacktiv.com/ressources/advisories/CYBONET-PineApp_Mail_Vulnerabilities_Advisory.pdf"
         }
     ],
     "skills": [
